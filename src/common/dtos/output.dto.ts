@@ -1,1 +1,4 @@
-// 공통 output dto
+export class CoreOutput {
+  error?: string;
+  ok: boolean;
+}
